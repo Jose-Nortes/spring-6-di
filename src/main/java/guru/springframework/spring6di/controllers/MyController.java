@@ -7,7 +7,8 @@ import org.springframework.stereotype.Controller;
 /**
  * Created by jt, Spring Framework Guru.
  */
-@Controller
+
+@Controller //Refactoring to use spring dependency injection
 public class MyController {
 
     private final GreetingService greetingService;
